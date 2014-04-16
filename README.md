@@ -12,7 +12,7 @@ I paid for a subscription to the Maxmind IP organization database for a nominal 
 
 ### Library Information
 
-Some of the libraries were provided by the Maxmind and the latest versions can be found on github:
+The following APIs were provided by the Maxmind and the latest versions can be found on github:
 
 * geoip.inc
 * geoipcity.inc
@@ -31,7 +31,7 @@ The variables are near the top of the scripts and are commented with path inform
 
 ### Information
 
-The script provides error checking to insure the information provided is an IP address, it discards any invalid entries. It also allows users to export the results into a randomized CSV file. It is also wise to setup a cronjob to delete old csv files from the directory where the CSV files are generated. I didn't add this functionality into the script in case these files wanted to be kept long term. The geoip_update.php script was implemented in an older version of the program but is no longer used. I need to update it to auto pull org information from Maxmind. Results are returned very quickly, even when searching for thousands of entries. Make sure you give PHP enough memory resources if you will be doing lots of queries.  
+The script provides error checking to insure the information provided is an IP address, it discards any invalid entries. It also allows users to export the results into a randomized CSV file. It is also wise to setup a cronjob to delete old CSV files from the directory where the CSV files are generated. I didn't add this functionality into the script in case these files wanted to be kept long term. The geoip_update.php script was implemented in an older version of the program but is no longer used. I need to update it to auto pull org information from Maxmind. Results are returned very quickly, even when searching for thousands of entries. Make sure you give PHP enough memory resources if you will be doing lots of queries.  
 
 I am not a web developer/designer by trade, sorry if the design is a bit dated :).  
 
@@ -39,7 +39,7 @@ I am not a web developer/designer by trade, sorry if the design is a bit dated :
 
 Main Interface - Smart enough to identify real IP addresses from random text. Also, IP information can be entered in any fashion as long as there is a space between IP addresses. 
 
-![Main Page](https://github.com/seth-paxton/GeoIP-Lookup/blob/master/screenshot1.png)
+![Main Page](https://github.com/seth-paxton/GeoIP-Lookup/blob/master/screenshot1.png?raw=true)
 
 Results - Results are shown in a table. They can be highlighted by mouseover. Results can be exported using the "Export CSV" button.
 
