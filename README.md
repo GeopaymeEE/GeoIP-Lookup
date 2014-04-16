@@ -43,4 +43,4 @@ Main Interface - Smart enough to identify real IP addresses from random text. Al
 
 Results - Results are shown in a table. They can be highlighted by mouseover. Results can be exported using the "Export CSV" button.
 
-![Results](https://github.com/seth-paxton/GeoIP-Lookup/blob/master/screenshot2.png)
+![Results](https://github.com/seth-paxton/GeoIP-Lookup/blob/master/screenshot2.png?raw=true)
